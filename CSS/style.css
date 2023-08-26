@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    padding: 0x;
+    box-sizing: border-box;
+    background-image: url(/Images/contact-form-via_whatsapp-bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+p,b,input,button, ::placeholder{
+    font-size: 1.4rem;
+}
+
+::placeholder{
+    padding-left: 0em;
+}
+
+/*Responsive Settings*/
+
+@media screen and (max-width:1300px){
+    p,b,input,button, ::placeholder{
+        font-size: 1.2rem;
+    }
+}
